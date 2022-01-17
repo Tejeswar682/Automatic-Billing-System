@@ -33,10 +33,10 @@ HARDWARE CIRCUIT DIAGRAM:
 
 ![image](https://user-images.githubusercontent.com/69978515/147108928-50eb89a1-888b-45ad-ae83-d6b59df22d16.png)
 
-•	The ESP32 communicates with the MFRC522 RFID Reader via the SPI protocol. The MISO and MOSI pins of the RFID Reader are connected to the ESP32 at pins 18 and 23 respectively. 
-•	The Push Button is connected to pin 33 and the Red & Green LEDs are connected to pins 12 and 14 respectively.
-•	The ESP32 has an inbuilt ability to connect to Wi-Fi. This ability has been harnessed for transmitting the data to the ESP32 Web Server.
-•	The ESP32 also has the ability to host its own Web Server, which is where the user’s bill is being displayed in this project.
+- The ESP32 communicates with the MFRC522 RFID Reader via the SPI protocol. The MISO and MOSI pins of the RFID Reader are connected to the ESP32 at pins 18 and 23 respectively. 
+- The Push Button is connected to pin 33 and the Red & Green LEDs are connected to pins 12 and 14 respectively.
+- The ESP32 has an inbuilt ability to connect to Wi-Fi. This ability has been harnessed for transmitting the data to the ESP32 Web Server.
+- The ESP32 also has the ability to host its own Web Server, which is where the user’s bill is being displayed in this project.
 
 The major drawback of this project is that this project is entirely based on the assumption that all the customers entering the supermarket are rational and 
 honest customers. If a customer doesn’t scan the product while adding it into his cart, it will not be recorded in his bill. Hence, this might lead to theft of 
