@@ -42,7 +42,7 @@ The major drawback of this project is that this project is entirely based on the
 honest customers. If a customer doesn’t scan the product while adding it into his cart, it will not be recorded in his bill. Hence, this might lead to theft of 
 products from the supermarket.
 
-Cost Analysis:
+Bill of Materials (BoM):
 
 ![image](https://user-images.githubusercontent.com/69978515/147109164-ff97da61-8b8d-4f9c-b99a-8aac9295169d.png)
 
